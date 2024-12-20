@@ -1,4 +1,3 @@
-// client/src/components/ImageProcessor.js
 import React, { useState, useRef } from 'react';
 import * as cocoSsd from '@tensorflow-models/coco-ssd';
 import '@tensorflow/tfjs';
