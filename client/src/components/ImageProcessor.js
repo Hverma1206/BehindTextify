@@ -42,7 +42,6 @@ const ImageProcessor = () => {
         const { bbox } = prediction;
         const [x, y, width, height] = bbox;
 
-        // Draw text behind object
         context.save();
         context.globalAlpha = 0.5;
         context.fillStyle = 'black';
